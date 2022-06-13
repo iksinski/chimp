@@ -63,6 +63,7 @@ module.exports = function ({ contextType } = {}) {
             Upload: 'Promise<GraphQLFileUpload>',
           },
         },
+        requires: ["tsconfig-paths/register"],
         plugins: [
           'typescript',
           'typescript-resolvers',
